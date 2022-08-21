@@ -18,6 +18,12 @@
     font-size: 3rem;
     line-height: 1.05;
   }
+  .main-head-text-1,
+  .main-head-text-2,
+  .sub-head-text {
+    font-size: 2rem;
+  }
+
   .img {
     height: 5rem;
     width: 5rem;
