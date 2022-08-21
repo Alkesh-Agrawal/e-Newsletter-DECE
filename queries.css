@@ -5,8 +5,9 @@
     margin-right: 2rem;
   }
   .main-nav-link-1:link,
-  .main-nav-link-2:link {
-    font-size: 1rem;
+  .main-nav-link-2:link,
+  .main-nav-link-3:link {
+    font-size: 0.75rem;
   }
   .main-nav-list {
     display: flex;
@@ -21,8 +22,10 @@
   .img {
     height: 5rem;
     width: 5rem;
-    border-radius: 50px;
-    border: 2px solid #192a56;
+  }
+  .img-stu {
+    height: 5rem;
+    width: 5rem;
   }
   .img-small-2,
   .img-small {
@@ -39,6 +42,11 @@
   .heading-tertiary-1,
   .heading-tertiary-2 {
     font-size: 1rem;
+  }
+  .editor-main,
+  .editor,
+  .name-2 {
+    font-size: xx-small;
   }
   .events-june,
   .events-july,
@@ -63,26 +71,31 @@
   }
   .award-pic {
     height: 20rem;
-    width: 35rem;
+    width: 25rem;
   }
   .Paper-1,
   .Paper-3,
   .book-1,
   .MoU-1 {
     height: 20rem;
-    width: 35rem;
+    width: 25rem;
   }
   .Paper-2 {
     height: 24rem;
-    width: 35rem;
+    width: 25rem;
   }
   .img-project {
     height: 12rem;
     width: 14rem;
   }
   .img-fdp {
+    height: 10rem;
+    width: 20rem;
+    margin-top: 1.5rem;
+  }
+  .img-fdp1-session {
     height: 20rem;
-    width: 38rem;
+    width: 15rem;
     margin-top: 1.5rem;
   }
   .name-1 {
@@ -99,5 +112,14 @@
 
   .footer h2 {
     font-size: 1rem;
+  }
+  .gallery-02-cols,
+  .gallery-03-cols {
+    gap: 5rem;
+  }
+  .gallery-05-cols,
+  .gallery-06-cols {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
   }
 }
