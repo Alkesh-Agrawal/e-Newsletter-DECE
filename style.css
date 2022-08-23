@@ -341,6 +341,14 @@ hr {
   margin-bottom: 2rem;
   line-height: 2;
 }
+.event-july-pub,
+.event-july-conf,
+.event-july-book {
+  font-size: 3rem;
+  margin-top: 3.2rem;
+  margin-bottom: 2rem;
+  line-height: 2;
+}
 .events-june,
 .event-1 {
   color: #98320b;
@@ -423,4 +431,8 @@ hr {
   margin-top: 1rem;
   line-height: 1.5;
   margin-bottom: 3rem;
+}
+.head-head-event-3 {
+  color: #2e4a07;
+  text-align: center;
 }
