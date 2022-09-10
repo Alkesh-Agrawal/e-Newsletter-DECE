@@ -4,9 +4,13 @@
     height: 3rem;
     margin-right: 2rem;
   }
+  .gallery-03-cols {
+    align-self: auto;
+  }
   .main-nav-link-1:link,
   .main-nav-link-2:link,
-  .main-nav-link-3:link {
+  .main-nav-link-3:link,
+  .main-nav-link-4:link {
     font-size: 0.75rem;
   }
   .main-nav-list {
@@ -24,7 +28,6 @@
     font-size: 1.5rem;
     line-height: 2rem;
   }
-
   .img {
     height: 5rem;
     width: 5rem;
@@ -34,7 +37,8 @@
     width: 5rem;
   }
   .img-small-2,
-  .img-small {
+  .img-small,
+  .img-small-3 {
     height: 3rem;
     width: 3rem;
   }
@@ -46,8 +50,14 @@
     font-size: 2rem;
   }
   .heading-tertiary-1,
-  .heading-tertiary-2 {
+  .heading-tertiary-2,
+  .heading-tertiary-3 {
     font-size: 1rem;
+  }
+  .heading-tertiary-4,
+  .heading-tertiary-5,
+  .heading-tertiary-6 {
+    font-size: 0.75rem;
   }
   .head-letter h5 {
     font-size: 2rem;
@@ -59,7 +69,12 @@
   }
   .events-june,
   .events-july,
-  .gallery-fdp {
+  .gallery-fdp,
+  .events-august-1,
+  .events-august-2,
+  .events-august-3,
+  .events-august-4,
+  .events-august-5 {
     grid-template-columns: 1fr;
   }
   .event {
@@ -72,7 +87,8 @@
   }
   .event-july-pub,
   .event-july-conf,
-  .event-july-book {
+  .event-july-book,
+  .event-july-lecture {
     font-size: 1.5rem;
   }
   .session {
@@ -98,6 +114,10 @@
     height: 24rem;
     width: 25rem;
   }
+  .lecture-1 {
+    height: 25rem;
+    width: 20rem;
+  }
   .img-project {
     height: 12rem;
     width: 14rem;
@@ -112,6 +132,16 @@
     width: 12rem;
     margin-top: 1.5rem;
   }
+  .img-innovation-1,
+  .img-innovation-2 {
+    height: 20rem;
+    width: 30rem;
+  }
+  .img-iicrmeet-1 {
+    height: 20rem;
+    width: 30rem;
+  }
+
   .name-1 {
     margin-left: 1.5rem;
   }
@@ -140,7 +170,29 @@
     grid-template-columns: repeat(3, 1fr);
     row-gap: 2rem;
   }
+  .gallery-07-cols {
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 2rem;
+  }
   .deptt-info {
     font-size: 1.5rem;
+  }
+  .event-6 {
+    text-align: left;
+  }
+  .gallery-visit-1 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: (4, 1fr);
+  }
+  .img-visit-1 {
+    height: 15rem;
+    width: 30rem;
+    margin-bottom: 0rem;
+  }
+  .new-joinee {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .small-text-3 {
+    font-size: 1rem;
   }
 }
