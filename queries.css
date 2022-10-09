@@ -81,6 +81,7 @@
   .events-sep {
     grid-template-columns: 1fr;
   }
+
   .event {
     font-size: 1rem;
     margin-top: 1.6rem;
@@ -155,7 +156,7 @@
   }
   .img-patent-1 {
     height: 20rem;
-    width: 40rem;
+    width: 35rem;
     margin-top: 0rem;
   }
   .img-iicrmeet-1 {
@@ -164,7 +165,7 @@
   }
   .img-notice-sih {
     height: 60rem;
-    width: 45rem;
+    width: 35rem;
   }
   .name-1 {
     margin-left: 1.5rem;
@@ -197,6 +198,12 @@
   .gallery-07-cols {
     grid-template-columns: repeat(4, 1fr);
     row-gap: 2rem;
+  }
+  .gallery--bos,
+  .gallery--tday,
+  .gallery--seminar {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
   }
   .deptt-info {
     font-size: 1.5rem;
