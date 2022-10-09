@@ -10,7 +10,8 @@
   .main-nav-link-1:link,
   .main-nav-link-2:link,
   .main-nav-link-3:link,
-  .main-nav-link-4:link {
+  .main-nav-link-4:link,
+  .main-nav-link-5:link {
     font-size: 0.75rem;
   }
   .main-nav-list {
@@ -51,12 +52,14 @@
   }
   .heading-tertiary-1,
   .heading-tertiary-2,
-  .heading-tertiary-3 {
+  .heading-tertiary-3,
+  .heading-tertiary-7 {
     font-size: 1rem;
   }
   .heading-tertiary-4,
   .heading-tertiary-5,
-  .heading-tertiary-6 {
+  .heading-tertiary-6,
+  .heading-tertiary-8 {
     font-size: 0.6rem;
   }
   .head-letter h5 {
@@ -74,7 +77,8 @@
   .events-august-2,
   .events-august-3,
   .events-august-4,
-  .events-august-5 {
+  .events-august-5,
+  .events-sep {
     grid-template-columns: 1fr;
   }
   .event {
@@ -122,6 +126,18 @@
     height: 12rem;
     width: 14rem;
   }
+  .img-bos {
+    height: 15rem;
+    width: 20rem;
+  }
+  .img-tday {
+    height: 15rem;
+    width: 20rem;
+  }
+  .img-seminar {
+    height: 15rem;
+    width: 20rem;
+  }
   .img-fdp {
     height: 10rem;
     width: 20rem;
@@ -137,11 +153,19 @@
     height: 20rem;
     width: 30rem;
   }
+  .img-patent-1 {
+    height: 20rem;
+    width: 40rem;
+    margin-top: 0rem;
+  }
   .img-iicrmeet-1 {
     height: 20rem;
     width: 30rem;
   }
-
+  .img-notice-sih {
+    height: 60rem;
+    width: 45rem;
+  }
   .name-1 {
     margin-left: 1.5rem;
   }
@@ -189,6 +213,7 @@
     width: 30rem;
     margin-bottom: 0rem;
   }
+
   .new-joinee {
     grid-template-columns: repeat(1, 1fr);
   }
