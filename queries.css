@@ -11,7 +11,8 @@
   .main-nav-link-2:link,
   .main-nav-link-3:link,
   .main-nav-link-4:link,
-  .main-nav-link-5:link {
+  .main-nav-link-5:link,
+  .main-nav-link-6:link {
     font-size: 0.75rem;
   }
   .main-nav-list {
@@ -39,7 +40,8 @@
   }
   .img-small-2,
   .img-small,
-  .img-small-3 {
+  .img-small-3,
+  .img-small-4 {
     height: 3rem;
     width: 3rem;
   }
@@ -53,13 +55,15 @@
   .heading-tertiary-1,
   .heading-tertiary-2,
   .heading-tertiary-3,
-  .heading-tertiary-7 {
+  .heading-tertiary-7,
+  .heading-tertiary-9 {
     font-size: 1rem;
   }
   .heading-tertiary-4,
   .heading-tertiary-5,
   .heading-tertiary-6,
-  .heading-tertiary-8 {
+  .heading-tertiary-8,
+  .heading-tertiary-10 {
     font-size: 0.6rem;
   }
   .head-letter h5 {
@@ -78,7 +82,9 @@
   .events-august-3,
   .events-august-4,
   .events-august-5,
-  .events-sep {
+  .events-sep,
+  .events-oct,
+  .gallery-mma {
     grid-template-columns: 1fr;
   }
 
@@ -154,10 +160,17 @@
     height: 20rem;
     width: 30rem;
   }
-  .img-patent-1 {
+  .img-patent-1,
+  .img-patent-2,
+  .img-reviewer-1,
+  .img-book-3 {
     height: 20rem;
     width: 35rem;
     margin-top: 0rem;
+  }
+  .img-phd-1 {
+    height: 40rem;
+    width: 30rem;
   }
   .img-iicrmeet-1 {
     height: 20rem;
@@ -166,6 +179,21 @@
   .img-notice-sih {
     height: 60rem;
     width: 35rem;
+  }
+  .img-intechopen-1,
+  .img-intechopen-2 {
+    height: 40rem;
+    width: 30rem;
+  }
+  .img-youtube-1 {
+    height: 20rem;
+    width: 30rem;
+  }
+  .img-mma {
+    height: 28rem;
+    width: 38rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   .name-1 {
     margin-left: 1.5rem;

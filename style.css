@@ -19,7 +19,7 @@ body {
 /* Main Heading*/
 .logo-1,
 .logo-2 {
-  height: 7rem;
+  height: 5rem;
 }
 .click-srmu-logo {
   color: white;
@@ -60,7 +60,9 @@ body {
 .main-nav-link-4:link,
 .main-nav-link-4:visited,
 .main-nav-link-5:link,
-.main-nav-link-5:visited {
+.main-nav-link-5:visited,
+.main-nav-link-6:link,
+.main-nav-link-6:visited {
   display: inline-block;
   text-decoration: none;
   color: white;
@@ -88,6 +90,10 @@ body {
 .main-nav-link-5:hover,
 .main-nav-link-5:active {
   color: #d4e6f1;
+}
+.main-nav-link-6:hover,
+.main-nav-link-6:active {
+  color: #e1c4ee;
 }
 .heading-primary {
   font-size: 5rem;
@@ -178,6 +184,24 @@ body {
   background-color: #2980b9;
   color: white;
 }
+.heading-tertiary-9 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+  margin-top: 3.2rem;
+  text-align: center;
+  background-color: #8e44ad;
+  color: white;
+}
+.heading-tertiary-10 {
+  font-size: 2rem;
+  line-height: 2;
+  margin-bottom: 3.2rem;
+  margin-top: 3.2rem;
+  text-align: center;
+  background-color: #8e44ad;
+  color: white;
+}
 
 .head-letter h6 {
   font-size: 1.5rem;
@@ -240,6 +264,10 @@ body {
 .link5 {
   text-decoration: none;
   color: #15405d;
+}
+.link6 {
+  text-decoration: none;
+  color: #633079;
 }
 
 .link {
@@ -368,7 +396,8 @@ hr {
   margin-top: 2rem;
   margin-bottom: 5rem;
 }
-.gallery-projects {
+.gallery-projects,
+.gallery-mma {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: (2, 1fr);
@@ -465,6 +494,14 @@ hr {
   position: absolute;
   margin-left: 1rem;
 }
+.img-small-4 {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50px;
+  border: 2px solid #633079;
+  position: absolute;
+  margin-left: 1rem;
+}
 .img-new-faculty {
   height: 10rem;
   width: 10rem;
@@ -523,7 +560,8 @@ hr {
 .events-august-3,
 .events-august-4,
 .events-august-5,
-.events-sep {
+.events-sep,
+.events-oct {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
@@ -554,6 +592,10 @@ hr {
 .events-june,
 .event-1 {
   color: #98320b;
+}
+.events-oct,
+.event-1 {
+  color: #633079;
 }
 .events-july .event-1,
 .events-july .event-2,
@@ -692,14 +734,63 @@ hr {
   box-shadow: 20px 20px 20px 10px rgb(222, 235, 244);
   margin-top: 10rem;
 }
+.img-patent-2,
+.img-book-3 {
+  height: 30rem;
+  width: 50rem;
+  border-radius: 5%;
+  box-shadow: 20px 20px 20px 10px rgb(210, 180, 222);
+  margin-top: 10rem;
+}
+.img-phd-1 {
+  height: 40rem;
+  width: 30rem;
+  border-radius: 5%;
+  box-shadow: 20px 20px 20px 10px rgb(210, 180, 222);
+  margin-top: 0rem;
+}
+.img-reviewer-1 {
+  height: 30rem;
+  width: 50rem;
+  border-radius: 5%;
+  box-shadow: 20px 20px 20px 10px rgb(210, 180, 222);
+  margin-top: 10rem;
+}
 .img-iicrmeet-1 {
   height: 30rem;
   width: 40rem;
   border-radius: 5%;
   box-shadow: 20px 20px 20px 10px rgb(230, 196, 149);
 }
+.img-intechopen-1,
+.img-intechopen-2 {
+  height: 50rem;
+  width: 40rem;
+  border-radius: 5%;
+  box-shadow: 20px 20px 20px 10px rgb(210, 180, 222);
+  margin-top: 0rem;
+}
+.img-youtube-1 {
+  height: 40rem;
+  width: 60rem;
+  border-radius: 5%;
+  box-shadow: 20px 20px 20px 10px rgb(210, 180, 222);
+  margin-top: 0rem;
+}
+.img-mma {
+  height: 40rem;
+  width: 60rem;
+  border-radius: 5%;
+  box-shadow: 20px 20px 20px 10px rgb(210, 180, 222);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
 .aug-event-1 {
   color: #8f590f;
+  text-align: center;
+}
+.oct-event-1 {
+  color: #633079;
   text-align: center;
 }
 .sep-event-1 {
@@ -708,6 +799,9 @@ hr {
 }
 .events-sep-color {
   color: #15405d;
+}
+.events-oct-color {
+  color: #633079;
 }
 
 .visit-text {
