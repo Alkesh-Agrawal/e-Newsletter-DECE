@@ -41,7 +41,8 @@
   .img-small-2,
   .img-small,
   .img-small-3,
-  .img-small-4 {
+  .img-small-4,
+  .img-small-6 {
     height: 3rem;
     width: 3rem;
   }
@@ -56,14 +57,16 @@
   .heading-tertiary-2,
   .heading-tertiary-3,
   .heading-tertiary-7,
-  .heading-tertiary-9 {
+  .heading-tertiary-9,
+  .heading-tertiary-11 {
     font-size: 1rem;
   }
   .heading-tertiary-4,
   .heading-tertiary-5,
   .heading-tertiary-6,
   .heading-tertiary-8,
-  .heading-tertiary-10 {
+  .heading-tertiary-10,
+  .heading-tertiary-12 {
     font-size: 0.6rem;
   }
   .head-letter h5 {
@@ -84,6 +87,7 @@
   .events-august-5,
   .events-sep,
   .events-oct,
+  .events-nov,
   .gallery-mma {
     grid-template-columns: 1fr;
   }
@@ -163,7 +167,8 @@
   .img-patent-1,
   .img-patent-2,
   .img-reviewer-1,
-  .img-book-3 {
+  .img-book-3,
+  .img-patent-3 {
     height: 20rem;
     width: 35rem;
     margin-top: 0rem;
@@ -191,9 +196,21 @@
   }
   .img-mma {
     height: 28rem;
-    width: 38rem;
+    width: 32rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+  .img-book-4,
+  .img-feli-1,
+  .img-logo-1 {
+    height: 25rem;
+    width: 35rem;
+    margin-top: 0rem;
+  }
+  .img-reviewer-2,
+  .img-xplore1-jay {
+    height: 40rem;
+    width: 30rem;
   }
   .name-1 {
     margin-left: 1.5rem;
@@ -243,12 +260,28 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: (4, 1fr);
   }
-  .img-visit-1 {
+  .gallery-decoration-1 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: (6, 1fr);
+  }
+  .img-visit-1,
+  .img-deco-1 {
     height: 15rem;
     width: 30rem;
     margin-bottom: 0rem;
   }
-
+  .img-deco-1 {
+    height: 20rem;
+    width: 25rem;
+    margin-bottom: 0rem;
+  }
+  .img-fdp-1-mrai,
+  .img-epatent-1-jay,
+  .img-workshop-1-jay {
+    height: 25rem;
+    width: 35rem;
+    margin-bottom: 0rem;
+  }
   .new-joinee {
     grid-template-columns: repeat(1, 1fr);
   }

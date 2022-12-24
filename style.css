@@ -202,6 +202,24 @@ body {
   background-color: #8e44ad;
   color: white;
 }
+.heading-tertiary-11 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+  margin-top: 3.2rem;
+  text-align: center;
+  background-color: #c0392b;
+  color: white;
+}
+.heading-tertiary-12 {
+  font-size: 2rem;
+  line-height: 2;
+  margin-bottom: 3.2rem;
+  margin-top: 3.2rem;
+  text-align: center;
+  background-color: #c0392b;
+  color: white;
+}
 
 .head-letter h6 {
   font-size: 1.5rem;
@@ -268,6 +286,10 @@ body {
 .link6 {
   text-decoration: none;
   color: #633079;
+}
+.link7 {
+  text-decoration: none;
+  color: #ad3327;
 }
 
 .link {
@@ -433,6 +455,15 @@ hr {
   row-gap: 2rem;
   column-gap: 2rem;
 }
+.gallery-decoration-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: (3, 1fr);
+  text-align: center;
+  justify-content: center;
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
 .new-joinee {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -502,6 +533,14 @@ hr {
   position: absolute;
   margin-left: 1rem;
 }
+.img-small-6 {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50px;
+  border: 2px solid #ad3327;
+  position: absolute;
+  margin-left: 1rem;
+}
 .img-new-faculty {
   height: 10rem;
   width: 10rem;
@@ -561,7 +600,8 @@ hr {
 .events-august-4,
 .events-august-5,
 .events-sep,
-.events-oct {
+.events-oct,
+.events-nov {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
@@ -742,6 +782,13 @@ hr {
   box-shadow: 20px 20px 20px 10px rgb(210, 180, 222);
   margin-top: 10rem;
 }
+.img-patent-3 {
+  height: 30rem;
+  width: 50rem;
+  border-radius: 5%;
+  box-shadow: 20px 20px 20px 10px rgb(217, 136, 128);
+  margin-top: 10rem;
+}
 .img-phd-1 {
   height: 40rem;
   width: 30rem;
@@ -785,6 +832,40 @@ hr {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
+.img-book-4,
+.img-feli-1,
+.img-logo-1 {
+  height: 30rem;
+  width: 50rem;
+  border-radius: 5%;
+  box-shadow: 20px 20px 20px 10px rgb(217, 136, 128);
+  margin-top: 10rem;
+}
+.img-fdp-1-mrai,
+.img-epatent-1-jay,
+.img-workshop-1-jay {
+  height: 30rem;
+  width: 50rem;
+  border-radius: 5%;
+  box-shadow: 20px 20px 20px 10px rgb(217, 136, 128);
+  margin-top: 0rem;
+}
+.img-reviewer-2,
+.img-xplore1-jay {
+  height: 50rem;
+  width: 40rem;
+  border-radius: 5%;
+  box-shadow: 20px 20px 20px 10px rgb(217, 136, 128);
+  margin-top: 0rem;
+}
+.img-deco-1 {
+  height: 30rem;
+  width: 40rem;
+  border-radius: 5%;
+  box-shadow: 20px 20px 20px 10px rgb(217, 136, 128);
+  margin-bottom: 5rem;
+}
+
 .aug-event-1 {
   color: #8f590f;
   text-align: center;
@@ -802,6 +883,12 @@ hr {
 }
 .events-oct-color {
   color: #633079;
+}
+.nov-event-1 {
+  color: #ad3327;
+}
+.events-nov-color {
+  color: #ad3327;
 }
 
 .visit-text {
