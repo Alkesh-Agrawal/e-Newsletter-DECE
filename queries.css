@@ -167,10 +167,14 @@
   .img-patent-1,
   .img-patent-2,
   .img-reviewer-1,
-  .img-book-3,
+  .img-book-3 {
+    height: 20rem;
+    width: 33rem;
+    margin-top: 0rem;
+  }
   .img-patent-3 {
     height: 20rem;
-    width: 35rem;
+    width: 30rem;
     margin-top: 0rem;
   }
   .img-phd-1 {
@@ -204,7 +208,7 @@
   .img-feli-1,
   .img-logo-1 {
     height: 25rem;
-    width: 35rem;
+    width: 30rem;
     margin-top: 0rem;
   }
   .img-reviewer-2,
@@ -279,7 +283,7 @@
   .img-epatent-1-jay,
   .img-workshop-1-jay {
     height: 25rem;
-    width: 35rem;
+    width: 30rem;
     margin-bottom: 0rem;
   }
   .new-joinee {
