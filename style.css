@@ -67,7 +67,7 @@ body {
   text-decoration: none;
   color: white;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   transition: all 0.3s;
 }
 
@@ -220,6 +220,24 @@ body {
   background-color: #c0392b;
   color: white;
 }
+.heading-tertiary-13 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+  margin-top: 3.2rem;
+  text-align: center;
+  background-color: #58b19f;
+  color: white;
+}
+.heading-tertiary-14 {
+  font-size: 2rem;
+  line-height: 2;
+  margin-bottom: 3.2rem;
+  margin-top: 3.2rem;
+  text-align: center;
+  background-color: #58b19f;
+  color: white;
+}
 
 .head-letter h6 {
   font-size: 1.5rem;
@@ -303,6 +321,12 @@ body {
 }
 .icon-fdp2 {
   color: #5c940d;
+}
+.icon-fdp3 {
+  color: #1b9cfc;
+}
+.events-dec .icon-color {
+  color: #1b9cfc;
 }
 hr {
   border-style: none;
@@ -486,6 +510,12 @@ hr {
   border-radius: 12px;
   box-shadow: 20px 20px 20px 10px rgb(230, 201, 190);
 }
+.img-fdp2-session {
+  height: 20rem;
+  width: 30rem;
+  border-radius: 12px;
+  box-shadow: 20px 20px 20px 10px rgb(188, 224, 217);
+}
 
 .img {
   height: 10rem;
@@ -538,6 +568,14 @@ hr {
   width: 5rem;
   border-radius: 50px;
   border: 2px solid #ad3327;
+  position: absolute;
+  margin-left: 1rem;
+}
+.img-small-7 {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50px;
+  border: 2px solid #356a5f;
   position: absolute;
   margin-left: 1rem;
 }
@@ -601,7 +639,8 @@ hr {
 .events-august-5,
 .events-sep,
 .events-oct,
-.events-nov {
+.events-nov,
+.events-dec {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
@@ -865,7 +904,27 @@ hr {
   box-shadow: 20px 20px 20px 10px rgb(217, 136, 128);
   margin-bottom: 5rem;
 }
-
+.img-workshopmrai-1 {
+  height: 60rem;
+  width: 50rem;
+  border-radius: 5%;
+  box-shadow: 20px 20px 20px 10px rgb(188, 224, 217);
+  margin-top: 0rem;
+}
+.img-reviewermop-1 {
+  height: 40rem;
+  width: 50rem;
+  border-radius: 5%;
+  box-shadow: 20px 20px 20px 10px rgb(188, 224, 217);
+  margin-top: 0rem;
+}
+.img-phdviva-1 {
+  height: 40rem;
+  width: 50rem;
+  border-radius: 5%;
+  box-shadow: 20px 20px 20px 10px rgb(188, 224, 217);
+  margin-top: 0rem;
+}
 .aug-event-1 {
   color: #8f590f;
   text-align: center;
@@ -890,7 +949,12 @@ hr {
 .events-nov-color {
   color: #ad3327;
 }
-
+.events-dec-color {
+  color: #356a5f;
+}
+.dec-event-1 {
+  color: #356a5f;
+}
 .visit-text {
   text-align: center;
 }

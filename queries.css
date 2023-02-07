@@ -42,7 +42,8 @@
   .img-small,
   .img-small-3,
   .img-small-4,
-  .img-small-6 {
+  .img-small-6,
+  .img-small-7 {
     height: 3rem;
     width: 3rem;
   }
@@ -58,7 +59,8 @@
   .heading-tertiary-3,
   .heading-tertiary-7,
   .heading-tertiary-9,
-  .heading-tertiary-11 {
+  .heading-tertiary-11,
+  .heading-tertiary-13 {
     font-size: 1rem;
   }
   .heading-tertiary-4,
@@ -66,7 +68,8 @@
   .heading-tertiary-6,
   .heading-tertiary-8,
   .heading-tertiary-10,
-  .heading-tertiary-12 {
+  .heading-tertiary-12,
+  .heading-tertiary-14 {
     font-size: 0.6rem;
   }
   .head-letter h5 {
@@ -88,6 +91,7 @@
   .events-sep,
   .events-oct,
   .events-nov,
+  .events-dec,
   .gallery-mma {
     grid-template-columns: 1fr;
   }
@@ -157,6 +161,11 @@
   .img-fdp1-session {
     height: 20rem;
     width: 12rem;
+    margin-top: 1.5rem;
+  }
+  .img-fdp2-session {
+    height: 10rem;
+    width: 15rem;
     margin-top: 1.5rem;
   }
   .img-innovation-1,
@@ -283,6 +292,17 @@
   .img-epatent-1-jay,
   .img-workshop-1-jay {
     height: 25rem;
+    width: 30rem;
+    margin-bottom: 0rem;
+  }
+  .img-workshopmrai-1 {
+    height: 40rem;
+    width: 30rem;
+    margin-bottom: 0rem;
+  }
+  .img-reviewermop-1,
+  .img-phdviva-1 {
+    height: 20rem;
     width: 30rem;
     margin-bottom: 0rem;
   }
