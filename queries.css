@@ -43,7 +43,8 @@
   .img-small-3,
   .img-small-4,
   .img-small-6,
-  .img-small-7 {
+  .img-small-7,
+  .img-small-8 {
     height: 3rem;
     width: 3rem;
   }
@@ -60,7 +61,8 @@
   .heading-tertiary-7,
   .heading-tertiary-9,
   .heading-tertiary-11,
-  .heading-tertiary-13 {
+  .heading-tertiary-13,
+  .heading-tertiary-15 {
     font-size: 1rem;
   }
   .heading-tertiary-4,
@@ -69,7 +71,8 @@
   .heading-tertiary-8,
   .heading-tertiary-10,
   .heading-tertiary-12,
-  .heading-tertiary-14 {
+  .heading-tertiary-14,
+  .heading-tertiary-16 {
     font-size: 0.6rem;
   }
   .head-letter h5 {
@@ -92,7 +95,8 @@
   .events-oct,
   .events-nov,
   .events-dec,
-  .gallery-mma {
+  .gallery-mma,
+  .events-feb {
     grid-template-columns: 1fr;
   }
 
@@ -181,7 +185,8 @@
     width: 33rem;
     margin-top: 0rem;
   }
-  .img-patent-3 {
+  .img-patent-3,
+  .img-patent-4 {
     height: 20rem;
     width: 30rem;
     margin-top: 0rem;
@@ -220,7 +225,18 @@
     width: 30rem;
     margin-top: 0rem;
   }
+  .img-book-5 {
+    height: 20rem;
+    width: 35rem;
+    margin-top: 0rem;
+  }
+  .img-book-6 {
+    height: 30rem;
+    width: 25rem;
+    margin-top: 0rem;
+  }
   .img-reviewer-2,
+  .img-reviewer-3,
   .img-xplore1-jay {
     height: 40rem;
     width: 30rem;
@@ -301,6 +317,7 @@
     margin-bottom: 0rem;
   }
   .img-reviewermop-1,
+  .img-reviewermop-2,
   .img-phdviva-1 {
     height: 20rem;
     width: 30rem;

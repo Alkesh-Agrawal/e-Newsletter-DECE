@@ -48,7 +48,7 @@ body {
   display: flex;
   list-style: none;
   align-items: center;
-  gap: 9.8rem;
+  gap: 4rem;
 }
 
 .main-nav-link-1:link,
@@ -238,6 +238,24 @@ body {
   background-color: #58b19f;
   color: white;
 }
+.heading-tertiary-15 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+  margin-top: 3.2rem;
+  text-align: center;
+  background-color: #192a56;
+  color: white;
+}
+.heading-tertiary-16 {
+  font-size: 2rem;
+  line-height: 2;
+  margin-bottom: 3.2rem;
+  margin-top: 3.2rem;
+  text-align: center;
+  background-color: #192a56;
+  color: white;
+}
 
 .head-letter h6 {
   font-size: 1.5rem;
@@ -308,6 +326,10 @@ body {
 .link7 {
   text-decoration: none;
   color: #ad3327;
+}
+.link8 {
+  text-decoration: none;
+  color: #142245;
 }
 
 .link {
@@ -579,6 +601,14 @@ hr {
   position: absolute;
   margin-left: 1rem;
 }
+.img-small-8 {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50px;
+  border: 2px solid #142245;
+  position: absolute;
+  margin-left: 1rem;
+}
 .img-new-faculty {
   height: 10rem;
   width: 10rem;
@@ -640,7 +670,8 @@ hr {
 .events-sep,
 .events-oct,
 .events-nov,
-.events-dec {
+.events-dec,
+.events-feb {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
@@ -828,6 +859,13 @@ hr {
   box-shadow: 20px 20px 20px 10px rgb(217, 136, 128);
   margin-top: 10rem;
 }
+.img-patent-4 {
+  height: 30rem;
+  width: 50rem;
+  border-radius: 5%;
+  box-shadow: 20px 20px 20px 10px rgb(163, 170, 187);
+  margin-top: 10rem;
+}
 .img-phd-1 {
   height: 40rem;
   width: 30rem;
@@ -918,12 +956,40 @@ hr {
   box-shadow: 20px 20px 20px 10px rgb(188, 224, 217);
   margin-top: 0rem;
 }
+.img-reviewermop-2 {
+  height: 40rem;
+  width: 50rem;
+  border-radius: 5%;
+  box-shadow: 20px 20px 20px 10px rgb(163, 170, 187);
+  margin-top: 0rem;
+}
+.img-reviewer-3 {
+  height: 50rem;
+  width: 40rem;
+  border-radius: 5%;
+  box-shadow: 20px 20px 20px 10px rgb(163, 170, 187);
+  margin-top: 0rem;
+}
 .img-phdviva-1 {
   height: 40rem;
   width: 50rem;
   border-radius: 5%;
   box-shadow: 20px 20px 20px 10px rgb(188, 224, 217);
   margin-top: 0rem;
+}
+.img-book-5 {
+  height: 30rem;
+  width: 50rem;
+  border-radius: 5%;
+  box-shadow: 20px 20px 20px 10px rgb(163, 170, 187);
+  margin-top: 10rem;
+}
+.img-book-6 {
+  height: 50rem;
+  width: 40rem;
+  border-radius: 5%;
+  box-shadow: 20px 20px 20px 10px rgb(163, 170, 187);
+  margin-top: 10rem;
 }
 .aug-event-1 {
   color: #8f590f;
@@ -954,6 +1020,12 @@ hr {
 }
 .dec-event-1 {
   color: #356a5f;
+}
+.feb-event-1 {
+  color: #142245;
+}
+.events-feb-color {
+  color: #142245;
 }
 .visit-text {
   text-align: center;
